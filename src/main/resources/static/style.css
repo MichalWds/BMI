@@ -1,0 +1,13 @@
+body{
+
+}
+
+.background-roundthree {
+    background-image:url("https://www.beachmarketing.co.uk/wp-content/uploads/2017/10/slide-welding.jpg") ;
+    height: 100vh;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}

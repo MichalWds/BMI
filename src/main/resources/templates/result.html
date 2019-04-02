@@ -1,0 +1,18 @@
+
+<head th:replace="/bmi :: head"></head>
+    <meta charset="UTF-8">
+    <title>SPRAWDZ SWOJE BMI</title>
+
+
+<body>
+<h1>Twoje BMI to:</h1>
+<h2><p th:text="${yourBMI}"/></h2>
+<h2><p th:text="${yourBM}"/></h2>
+<format>
+   <div>
+       <a th:href="@{/bmi}">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Wroc do strony glownej</button>
+       </a>
+   </div>
+</format>
+</body>
