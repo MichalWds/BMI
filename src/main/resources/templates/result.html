@@ -2,12 +2,17 @@
 <head th:replace="/bmi :: head"></head>
     <meta charset="UTF-8">
     <title>SPRAWDZ SWOJE BMI</title>
-
+<div class="background-result">
 
 <body>
-<h1>Twoje BMI to:</h1>
-<h2><p th:text="${yourBMI}"/></h2>
-<h2><p th:text="${yourBM}"/></h2>
+<br>
+<h2 align="center">Twoje BMI to:</h2>
+</br>
+<h1 align="center"><p th:text="${yourBMI}"/></h1>
+<br>
+<h2 align="center"><p th:text="${yourBM}"/></h2>
+
+</br>
 <format>
    <div>
        <a th:href="@{/bmi}">

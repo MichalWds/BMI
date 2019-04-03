@@ -28,7 +28,9 @@ public class BmiController {
                             ModelMap map) {
 
         BmiCounter  bmiCounter = new BmiCounter(height, weight);
+
         map.put("yourBMI", df.format(bmiCounter.getBMI()));
+
         map.put("yourBM", bmiCounter.getMessage());
 
         return "result";
