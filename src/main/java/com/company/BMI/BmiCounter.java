@@ -1,10 +1,21 @@
 package com.company.BMI;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+
 
 public class BmiCounter {
     private double height;
     private double weight;
 
+
+    private String a = "Masz niedowagę, przytyj trochę!";
+    private String b = "Bardzo dobrze! Masz odpowiednią wagę dla swojego wzrostu!";
+    private String c = "Masz lekka nadwagę, poćwicz!";
+    private String d = "Niestety jesteś otyły, zrzuć trochę kilogramów!";
 
     public BmiCounter(double height, double weight) {
         this.height = height;
@@ -20,14 +31,13 @@ public class BmiCounter {
     public String getMessage() {
 
         if (getBMI() < 18.5) {
-            return "Masz niedowagę, przytyj trochę!";
+            return a ;
         } else if (getBMI() <= 24.9) {
-            return "Bardzo dobrze! Masz odpowiednią wagę dla swojego wzrostu!";
+            return b ;
         } else if (getBMI() <= 29.9) {
-            return "Twoje BMI wynosi : " + getBMI() +
-                    "\n Masz lekka nadwagę, poćwicz!";
+            return c ;
         } else {
-            return "Niestety jesteś otyły, zrzuć trochę kilogramów!";
+            return d;
         }
 
 

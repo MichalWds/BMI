@@ -1,6 +1,9 @@
 package com.company.BMI;
 
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
 import org.springframework.ui.ModelMap;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,15 +30,19 @@ public class BmiController {
                             DecimalFormat df,
                             ModelMap map) {
 
-        BmiCounter  bmiCounter = new BmiCounter(height, weight);
 
-        map.put("yourBMI", df.format(bmiCounter.getBMI()));
+        BmiCounter bmiCounter = new BmiCounter(height, weight);
+
+
+
+        map.put("yourBMI", df.format(bmiCounter.getBMI()) );
 
         map.put("yourBM", bmiCounter.getMessage());
+
+        map.put("bmi",bmiCounter.getBMI());
 
         return "result";
     }
 
 
 }
-

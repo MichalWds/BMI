@@ -12,6 +12,16 @@
 <br>
 <h2 align="center"><p th:text="${yourBM}"/></h2>
 
+
+<div th:if="${bmi < 18.5 }">
+    <a><img src="https://c.allegroimg.com/original/0c8ba7/ae88b27d496d8af42a224e6cd81c" alt="Trulli" width="500" height="333">
+    </a></div>
+<div th:if="${ bmi > 18.5}">
+    <a>
+        <img src="http://bi.gazeta.pl/im/58/29/e1/z14756184Q,Meskie-sylwetki-roznia-sie-w-zaleznosci-od-narodow.jpg">
+    </a>
+</div>
+
 </br>
 <format>
    <div>
