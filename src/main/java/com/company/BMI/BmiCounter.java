@@ -1,9 +1,5 @@
 package com.company.BMI;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 public class BmiCounter {
     private double height;
