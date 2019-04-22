@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c554e5b3-a7e8-4e6e-a8a6-a7b72e96dc4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/BMI/BmiCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/BMI/BmiCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/BMI/BmiCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/BMI/BmiCounterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/BMI/BmiCounter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="127">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -29,11 +28,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/company/BMI/BmiCounterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="556">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/BMI/BmiApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -160,7 +168,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BMICalculator-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ex/Kylon" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -182,6 +190,21 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.BmiCounterTest.test_value_of_BMI">
+    <configuration name="BmiCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BMI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.BMI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.BMI" />
+      <option name="MAIN_CLASS_NAME" value="com.company.BMI.BmiCounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BmiCounterTest.test_null_PrepareGreeting_returns_with_Fallback" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BMI" />
       <extension name="coverage">
@@ -193,6 +216,22 @@
       <option name="PACKAGE_NAME" value="com.company.BMI" />
       <option name="MAIN_CLASS_NAME" value="com.company.BMI.BmiCounterTest" />
       <option name="METHOD_NAME" value="test_null_PrepareGreeting_returns_with_Fallback" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BmiCounterTest.test_right_message_about_BMI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BMI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.BMI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.BMI" />
+      <option name="MAIN_CLASS_NAME" value="com.company.BMI.BmiCounterTest" />
+      <option name="METHOD_NAME" value="test_right_message_about_BMI" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,6 +263,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BmiCounterTest.test_value_of_BMI" />
+        <item itemvalue="JUnit.BmiCounterTest.test_right_message_about_BMI" />
+        <item itemvalue="JUnit.BmiCounterTest" />
         <item itemvalue="JUnit.BmiCounterTest.test_null_PrepareGreeting_returns_with_Fallback" />
       </list>
     </recent_temporary>
@@ -260,23 +301,11 @@
       <workItem from="1554743776231" duration="457000" />
       <workItem from="1555187300591" duration="249000" />
       <workItem from="1555320780445" duration="115000" />
-      <workItem from="1555609207612" duration="2398000" />
+      <workItem from="1555609207612" duration="4030000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BmiCounterTest_test_null_PrepareGreeting_returns_with_Fallback - 2019.04.18 at 20h 01m 16s.xml">
-      <configuration name="BmiCounterTest.test_null_PrepareGreeting_returns_with_Fallback" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BmiCounterTest_test_null_PrepareGreeting_returns_with_Fallback - 2019.04.18 at 20h 03m 47s.xml">
-      <configuration name="BmiCounterTest.test_null_PrepareGreeting_returns_with_Fallback" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BmiCounterTest_test_null_PrepareGreeting_returns_with_Fallback - 2019.04.18 at 20h 03m 55s.xml">
-      <configuration name="BmiCounterTest.test_null_PrepareGreeting_returns_with_Fallback" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BmiCounterTest_test_null_PrepareGreeting_returns_with_Fallback - 2019.04.18 at 20h 04m 35s.xml">
-      <configuration name="BmiCounterTest.test_null_PrepareGreeting_returns_with_Fallback" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BmiCounterTest_test_null_PrepareGreeting_returns_with_Fallback - 2019.04.18 at 20h 04m 44s.xml">
       <configuration name="BmiCounterTest.test_null_PrepareGreeting_returns_with_Fallback" configurationId="JUnit" />
     </history-entry>
@@ -295,9 +324,21 @@
     <history-entry file="BmiCounterTest_test_value_of_BMI - 2019.04.18 at 20h 08m 36s.xml">
       <configuration name="BmiCounterTest.test_value_of_BMI" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BmiCounterTest_test_value_of_BMI - 2019.04.19 at 12h 47m 50s.xml">
+      <configuration name="BmiCounterTest.test_value_of_BMI" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BmiCounterTest_test_value_of_BMI - 2019.04.19 at 12h 48m 03s.xml">
+      <configuration name="BmiCounterTest.test_value_of_BMI" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BmiCounterTest_test_right_message_about_BMI - 2019.04.19 at 12h 50m 47s.xml">
+      <configuration name="BmiCounterTest.test_right_message_about_BMI" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BmiCounterTest_test_value_of_BMI - 2019.04.19 at 20h 25m 35s.xml">
+      <configuration name="BmiCounterTest.test_value_of_BMI" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40002000" />
+    <option name="totallyTimeSpent" value="41634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -313,7 +354,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2733711" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2733711" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -322,7 +363,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.27053824" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -376,6 +417,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/company/BMI/BmiCounterTest.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/style.css" />
@@ -431,14 +484,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/BMI/BmiCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/BMI/BmiApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/company/BMI/BmiCounterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="556">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

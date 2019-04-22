@@ -2,12 +2,10 @@ package com.company.BMI;
 
 import org.junit.Assert;
 import org.junit.Test;
-import sun.font.TrueTypeFont;
-
 
 public class BmiCounterTest {
 
-    private BmiCounter SUT = new BmiCounter(100,40);
+    private BmiCounter SUT = new BmiCounter(100, 40);
 
     @Test
     public void test_right_message_about_BMI() throws Exception {
@@ -23,17 +21,18 @@ public class BmiCounterTest {
     }
 
 //    @Test
-//    public void test_value_of_BMI() throws Exception{
+//    public void test_value_of_BMI() throws Exception {
 //
 //        //given
-//        Double value ;
+//        Double value;
 //
 //        //when
 //        Double result = SUT.getBMI();
 //
-//        Assert.assertEquals(java.util.Optional.of(40),result);
-
-    }
-
-
+//        Assert.assertEquals(java.util.Optional.of(40), result);
+//
+//    }
 }
+
+
+
